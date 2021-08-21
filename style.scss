@@ -1,0 +1,24 @@
+
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.board{
+    border: 2px solid black;
+    width: 30rem;
+    height: 40vh;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box{
+    border: 1px solid black;
+}
